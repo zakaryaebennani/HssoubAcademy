@@ -1,0 +1,8 @@
+cd path #the path that contains Market.json
+
+mongoimport --db market --collection market --type json --file Market.json --jsonarray
+mongosh # open the mongo shell (I work with mongoDb v7.0)
+
+use market
+db.market.find({"Price":{$gt : 90}},{"Name": true, "Color" : true, _id : false})
+#in the second object you can write your keys between " " or without them it's the same in the v7.0.
