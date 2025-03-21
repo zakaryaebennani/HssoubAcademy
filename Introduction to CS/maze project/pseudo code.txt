@@ -1,0 +1,43 @@
+1. Start the program.
+2. Get the cat.
+3. Get the maze.
+4. Get the bread.
+5. Set the cat in the starting position.
+6. Repeat forever:
+    If the up arrow is clicked:
+        Move the cat 3 steps up.
+        Play the step sound.
+        If the cat touches the maze wall:
+            Move the cat back to the previous position.
+        If the cat touches the bread:
+            Display "You win!"
+            Play the win sound.
+            Break out of the loop.
+    If the down arrow is clicked:
+        Move the cat 3 steps down.
+        Play the step sound.
+        If the cat touches the maze wall:
+            Move the cat back to the previous position.
+        If the cat touches the bread:
+            Display "You win!"
+            Play the win sound.
+            Break out of the loop.
+    If the left arrow is clicked:
+        Move the cat 3 steps left.
+        Play the step sound.
+        If the cat touches the maze wall:
+            Move the cat back to the previous position.
+        If the cat touches the bread:
+            Display "You win!"
+            Play the win sound.
+            Break out of the loop.
+    If the right arrow is clicked:
+        Move the cat 3 steps right.
+        Play the step sound.
+        If the cat touches the maze wall:
+            Move the cat back to the previous position.
+        If the cat touches the bread:
+            Display "You win!"
+            Play the win sound.
+            Break out of the loop.
+7. End the program.
