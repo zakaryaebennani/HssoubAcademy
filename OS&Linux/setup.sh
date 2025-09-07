@@ -23,7 +23,7 @@ echo "Hello From user mohamad" > ./projects/hsoub_projects.txt
 chmod 775 projects
 
 # Move projects to Ahmed's home and change the ownership  
-sudo mv ./projects /home/ahmed
-sudo chown -R ahmed:programming /home/ahmed/projects
+sudo mv ./projects ~ahmed
+sudo chown -R ahmed:programming ~ahmed/projects
 
 echo "Setup complete!"
